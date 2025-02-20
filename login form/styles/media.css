@@ -1,0 +1,38 @@
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .container {
+        width: 80%; /* Riduce la larghezza su schermi medi */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* I div vanno uno sotto l'altro */
+        height: auto; /* Permette all'altezza di adattarsi */
+    }
+
+    .left {
+        border-right: none; /* Rimuove il bordo centrale */
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Aggiunge un bordo tra i div in verticale */
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    input {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
