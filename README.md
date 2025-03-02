@@ -20,5 +20,5 @@ Una semplice **pagina di login** sviluppata con **HTML, CSS** e **FontAwesome** 
 
 1. **Clona il repository:**
    ```bash
-   git clone https://github.com/FraPier99/Login-Form.git
+   git clone https://github.com/FraPier99/Login-Page.git
 
