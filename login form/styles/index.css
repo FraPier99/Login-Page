@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/assets/3408105.jpg') no-repeat center center fixed; /* Sfondo */
+    background: url('../assets/background.jpg') no-repeat center center fixed; /* Sfondo */
     background-size: cover;
     color: #fff;
 }
